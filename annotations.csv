@@ -1,0 +1,6 @@
+image_id,category,confidence,timestamp,notes
+IMG_001,vehicle,5,2025-10-02T06:11:31.342034,Clear image of a car
+IMG_002,person,4,2025-10-02T06:11:31.345694,Person in good lighting
+IMG_003,animal,5,2025-10-02T06:11:31.345717,Dog clearly visible
+IMG_004,building,4,2025-10-02T06:11:31.345746,"Office building, slight blur"
+IMG_005,vehicle,5,2025-10-02T06:11:31.345753,"Truck, side view"

@@ -1,0 +1,118 @@
+{
+  "summary": {
+    "total_annotations": 5,
+    "total_quality_checks": 3,
+    "total_comparisons": 2,
+    "generated_at": "2025-10-02T06:11:31.346819",
+    "average_quality_score": "100.00%"
+  },
+  "annotations": [
+    {
+      "image_id": "IMG_001",
+      "category": "vehicle",
+      "confidence": 5,
+      "timestamp": "2025-10-02T06:11:31.342034",
+      "notes": "Clear image of a car"
+    },
+    {
+      "image_id": "IMG_002",
+      "category": "person",
+      "confidence": 4,
+      "timestamp": "2025-10-02T06:11:31.345694",
+      "notes": "Person in good lighting"
+    },
+    {
+      "image_id": "IMG_003",
+      "category": "animal",
+      "confidence": 5,
+      "timestamp": "2025-10-02T06:11:31.345717",
+      "notes": "Dog clearly visible"
+    },
+    {
+      "image_id": "IMG_004",
+      "category": "building",
+      "confidence": 4,
+      "timestamp": "2025-10-02T06:11:31.345746",
+      "notes": "Office building, slight blur"
+    },
+    {
+      "image_id": "IMG_005",
+      "category": "vehicle",
+      "confidence": 5,
+      "timestamp": "2025-10-02T06:11:31.345753",
+      "notes": "Truck, side view"
+    }
+  ],
+  "quality_scores": [
+    {
+      "data_entry": {
+        "image_id": "IMG_001",
+        "category": "vehicle",
+        "confidence": 5,
+        "timestamp": "2025-10-02T06:11:31.342034",
+        "notes": "Clear image of a car"
+      },
+      "score": 3,
+      "max_score": 3,
+      "percentage": 100.0,
+      "feedback": [
+        "\u2713 Complete",
+        "\u2713 Correct format",
+        "\u2713 Consistent"
+      ],
+      "timestamp": "2025-10-02T06:11:31.345935"
+    },
+    {
+      "data_entry": {
+        "image_id": "IMG_002",
+        "category": "person",
+        "confidence": 4,
+        "timestamp": "2025-10-02T06:11:31.345694",
+        "notes": "Person in good lighting"
+      },
+      "score": 3,
+      "max_score": 3,
+      "percentage": 100.0,
+      "feedback": [
+        "\u2713 Complete",
+        "\u2713 Correct format",
+        "\u2713 Consistent"
+      ],
+      "timestamp": "2025-10-02T06:11:31.346026"
+    },
+    {
+      "data_entry": {
+        "image_id": "IMG_003",
+        "category": "animal",
+        "confidence": 5,
+        "timestamp": "2025-10-02T06:11:31.345717",
+        "notes": "Dog clearly visible"
+      },
+      "score": 3,
+      "max_score": 3,
+      "percentage": 100.0,
+      "feedback": [
+        "\u2713 Complete",
+        "\u2713 Correct format",
+        "\u2713 Consistent"
+      ],
+      "timestamp": "2025-10-02T06:11:31.346086"
+    }
+  ],
+  "comparisons": [
+    {
+      "item_a": "Annotation with detailed notes",
+      "item_b": "Annotation with minimal notes",
+      "criterion": "completeness",
+      "winner": "A",
+      "timestamp": "2025-10-02T06:11:31.346336"
+    },
+    {
+      "item_a": "High confidence classification",
+      "item_b": "Low confidence classification",
+      "criterion": "reliability",
+      "winner": "Tie",
+      "timestamp": "2025-10-02T06:11:31.346414"
+    }
+  ]
+}
