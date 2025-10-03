@@ -161,5 +161,4 @@ Created as part of my journey demonstrating practical skills in:
 •	Systematic problem-solving
 •	Technical documentation
 
-Last Updated: October 2024
 
